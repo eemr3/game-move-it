@@ -37,6 +37,7 @@ Estudo na semana NLW-#4
 ## :seedling: Requisitos Mínimos
 
 NodeJs v12 +
+yarn se preferir no lugar do npm
 
 ## :rocket: Tecnologias Utilizadas 
 
