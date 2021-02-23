@@ -36,8 +36,8 @@ Estudo na semana NLW-#4
 
 ## :seedling: Requisitos Mínimos
 
-NodeJs v12 +
-yarn se preferir no lugar do npm
+- NodeJs v12 +
+- yarn se preferir usar no lugar no npm
 
 ## :rocket: Tecnologias Utilizadas 
 
@@ -59,5 +59,3 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 ## Licença 
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
-&copy; Emerson Moreira
