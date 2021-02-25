@@ -73,20 +73,21 @@
   transition: background-color 0.3s;
 }
 
-.countdownButtonActive span {
-  font-weight: 400;
-  color: var(--title);
-  font-size: 2rem;
-  margin-left: 1rem;
-  margin-top: -0.2rem;
-}
-
 .countdownButtonActive:hover:not(:disabled) {
   background-color: var(--red);
   color: var(--white);
 }
-.countdownButtonActive:hover:not(:disabled) span {
-  color: var(--white);
+.countdownButtonActiveCloseIcon {
+  width: 3rem;
+  height: 3rem;
+
+  fill: var(--text);
+
+  transition: fill 0.2s;
+}
+
+.countdownButtonActive:hover .countdownButtonActiveCloseIcon {
+  fill: var(--white);
 }
 
 .countdownButton:disabled {
