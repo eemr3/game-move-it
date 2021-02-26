@@ -47,14 +47,12 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias
 - NextJs
 - NodeJs
 
-## :link: Como contribuir 
-
-- Faça um Fork do repositório
-- Clone o seu repositório
-- Crie uma branch com a sua feature
-- Faça um commit com suas mudanças
-- 'Push' a sua branch
-- Ir em Pull Requests do projeto original e criar uma pull request com o seu commit
+## 🖥 Como rodar o projeto
+- Clone o repositório
+- Na pasta do projeto use o yarn install ou npm install
+- Use yarn dev ou npm run dev para subir localmente
+- O projeto roda na porta localhost:3000
+- Abra o VSCode e é so correr para o abraço :)
 
 ## Licença 
 
