@@ -1,0 +1,144 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  background-color: #5965e0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .container {
+    flex: 1;
+  }
+
+  .leftSide {
+    display: none;
+  }
+
+  .rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    justify-content: space-evenly;
+    margin: 0 auto;
+  }
+
+  .containerUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoLogin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoLogin img {
+    width: 80px;
+    margin-bottom: 3rem;
+  }
+
+  .containerUser strong {
+    font-size: 3rem;
+    color: var(--white);
+    margin-bottom: 5rem;
+  }
+  .containerUser .infoLogin span {
+    font-size: 1.4rem;
+    color: var(--white);
+  }
+
+  .buttonAndInput {
+    display: flex;
+  }
+
+  .buttonAndInput input {
+    width: 300px;
+  }
+
+  .buttonAndInput input::placeholder {
+    color: var(--white);
+  }
+
+  .buttonAndInput button {
+    width: 60px;
+    margin-left: 0.3rem;
+    background-color: var(--green);
+    border: 0;
+    border-radius: 5px;
+  }
+}
+
+.rightSide {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  justify-content: space-evenly;
+  margin-right: 20rem;
+}
+
+.sideLogo {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+.containerUser {
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+}
+
+.containerUser strong {
+  font-size: 2.5rem;
+  color: var(--white);
+  margin-bottom: 1.3rem;
+}
+
+.infoLogin {
+  display: flex;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.infoLogin span {
+  display: block;
+  line-height: 1.4;
+  max-width: 350px;
+  margin-left: 1rem;
+  font-size: 1.5rem;
+  color: var(--white);
+  word-wrap: break-word;
+}
+
+.buttonAndInput {
+  display: flex;
+  margin-top: 3rem;
+}
+
+.buttonAndInput input {
+  width: 340px;
+  padding: 20px;
+  border: 0;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #4953b8 0%, rgba(73, 83, 184, 0.2) 100%);
+  font-size: 1.3rem;
+}
+
+.buttonAndInput input::placeholder {
+  color: var(--white);
+}
+
+.buttonAndInput button {
+  width: 60px;
+  margin-left: 0.3rem;
+  background-color: var(--green);
+  border: 0;
+  border-radius: 5px;
+}

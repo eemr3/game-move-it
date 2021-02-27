@@ -1,0 +1,30 @@
+.container {
+  width: 7rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  align-items: center;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%);
+  filter: drop-shadow(0px 0px 60px rgba(0, 0, 0, 0.05));
+}
+
+.container > div {
+  margin-top: 3rem;
+}
+
+.homeButton {
+  position: absolute;
+  left: 35.71%;
+  right: 35.71%;
+  top: 44.15%;
+  bottom: 51.95%;
+}
+
+.homeButton button {
+  border: 0;
+}
