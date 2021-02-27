@@ -10,7 +10,7 @@ export function SideBar() {
   return (
     <div className={styles.container}>
       <div>
-        <img src="/logo_mini.svg" alt="Logo pequeno Move-it" />
+        <img src="/Logo_mini.svg" alt="Logo pequeno Move-it" />
       </div>
       <div className={styles.homeButton}>
         <button onClick={handleClick} type="button">
