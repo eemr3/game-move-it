@@ -129,6 +129,7 @@
   border-radius: 5px;
   background: linear-gradient(90deg, #4953b8 0%, rgba(73, 83, 184, 0.2) 100%);
   font-size: 1.3rem;
+  color: var(--white);
 }
 
 .buttonAndInput input::placeholder {
