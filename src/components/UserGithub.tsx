@@ -18,7 +18,7 @@ export default function UserGithub() {
   return (
     <div className={styles.container}>
       <section className={styles.leftSide}>
-        <img src="/Simbolo.svg" alt="Imagem do Move-it" />
+        <img src="/simbolo.svg" alt="Imagem do Move-it" />
       </section>
       <section className={styles.rightSide}>
         <div className={styles.sideLogo}>
@@ -27,7 +27,7 @@ export default function UserGithub() {
         <div className={styles.containerUser}>
           <strong>Bem-vindo</strong>
           <div className={styles.infoLogin}>
-            <img src="/Github.svg" alt="Imagem Github" />
+            <img src="/github.svg" alt="Imagem Github" />
             <span>Faça login com seu Github para começar</span>
           </div>
           <div className={styles.buttonAndInput}>
